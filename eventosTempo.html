@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+            background: rgba(183, 183, 183, 0.564);
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        #tempo {
+            font-size: 60px;
+        }
+
+        .start {
+            padding: 100px;
+            margin: 50px;
+            font-size: 35px;
+            background: rgb(83, 188, 83);
+        }
+
+        .stop {
+            padding: 100px;
+            margin: 50px;
+            font-size: 35px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Controle de Tempo</h1>
+    <h2 id="tempo">0</h2>
+    <button onclick="ativarContagem()" class="start">Ativar Contagem</button>
+    <button onclick="pararContagem()" class="stop">Parar Contagem</button>
+
+    <script src="js/eventosTempo.js"></script>
+</body>
+
+</html>

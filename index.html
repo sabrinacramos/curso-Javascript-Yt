@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo JavaScript</h1>
+    <p id="texto"></p>
+
+    <button ondblclick="eventoDblClick()" >Clique aqui</button><br><br>
+    
+    <div id="teste"  onmouseout="viraAzul()" onmouseover="viraRoxo()"
+        style="margin: auto auto; width:80%; height: 200px; background:blue"></div>
+
+    <br>
+
+    <input onfocus="alert('Campo focado')" id="campoTexto" type="text" style="padding: 80px; font-size: 40px;" placeholder="Digite alguma coisa">
+
+    <script src="js/eventos.js"></script>
+</body>
+</html>
