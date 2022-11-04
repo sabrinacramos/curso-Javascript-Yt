@@ -39,11 +39,11 @@ const listaMaquiagem = new Array("delineador", "mascara de cilios", "blush", "pr
 listaMaquiagem[1] = "rímel";
 //alert(listaMaquiagem[1]);
 
-//para ver todos itens de uma matriz 
+//para ver todos itens de uma matriz
 // console.log(listaMaquiagem);
 
 /* Diferença de matriz e objeto
-const pessoa = ["Sabrina", "Ramos", 30]; //Array
+const pessoa = ["Luiza", "Silva", 30]; //Array
 const pessoaObj = {nome:"Sabrina", sobrenome:"Ramos", idade:30}; //Objeto
 
 pessoa[0];
@@ -51,7 +51,7 @@ pessoaObj.nome;
 */
 
 //ACRESCENTANDO UM ITEM NA MATRIZ 
-const pessoa = ["Sabrina", "Ramos", 30];
+const pessoa = ["Luiza", "Silva", 30];
 pessoa.push("Brasileira");
 // console.log(pessoa);
 

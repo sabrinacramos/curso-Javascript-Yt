@@ -29,9 +29,9 @@
 // (3)
 // var nome, sobrenome, nomeCompleto, idade, soma;
 
-// nome = "Sabrina";
-// sobrenome = "Ramos";
-// idade = 30;
+// nome = "Gabriel";
+// sobrenome = "Souza";
+// idade = 25;
 
 // nomeCompleto = nome + " " + sobrenome;
 
