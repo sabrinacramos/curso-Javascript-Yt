@@ -22,5 +22,7 @@ class Carro {
 
 const uno = new Carro("fiat", "Uno", 2001);
 const gol = new Carro("volkswagen", "Gol", 2013);
+console.log(uno);
 console.log(uno.buzina());
+console.log(gol);
 console.log(gol.buzina());
