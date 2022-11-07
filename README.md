@@ -1,6 +1,8 @@
 <h1 align="center"> Curso-Javascript-Yt</h1>
 
 ## Descrição do curso
+link do curso: https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw
+
 Nesse curso aprendi todos os fundamentos do JavaScript. Entre os conhecimentos que obtive estão:
 - JS Interno e Externo
 - Tipos de Saída
